@@ -1,0 +1,93 @@
+video {
+    height: 100vh;
+    width: 99%;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .nav-secondry{
+    border: 2px solid blueviolet;
+  }
+  .first-nav{
+    border-bottom: 4px solid ;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mob a{
+   color: black !important;
+   text-decoration: none !important;
+
+  }
+  /* second-nav */
+  .second-nav a:hover{
+   border-bottom: 4px solid;
+  }
+  .section-2{
+    background-color: #1d1b1c;
+    color: white;
+  }
+  .this-is-just{
+    
+    /* border-bottom: solid 3px #000; */
+    animation: border_anim 3s linear forwards;
+  }
+  @keyframes border_anim {
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 100%;
+    }
+  }
+  /* section-3 */
+  .card-body{
+    /* border: 2px solid red ; */
+    text-align: center !important;
+
+  }
+  .card-body p{
+    text-align: center;
+  }
+  .card-body button{
+    height: 50px !important;
+    width: 100px !important;
+    background-color: #1d1b1c !important;
+    /* margin-right: auto !important;
+    margin-left: auto !important; */
+    margin: auto;
+    text-align: center !important;
+  }
+  .card-body button a{
+    text-decoration: none;
+    color: white;
+  }
+  /* sextion-4 */
+.section-4 img{
+ width: auto;
+}
+
+  /* section-6 */
+  .last{
+    background-color: #d0ccbf;
+    
+  }
+  .carousel-item img{
+    height: 70vh !important;
+  }
+ 
+
+  @media only screen and (max-width: 992px) {
+   /* #Location{
+    display: none;
+   } */
+   #navbarNav{
+    display: flex;
+    flex-direction: column;
+   }
+   .allay{
+    border: 2px solid;
+    display: none;
+  }
+  /* .carousel-item img{
+    height: 50vh !important;
+  } */
+  }
